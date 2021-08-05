@@ -1,3 +1,4 @@
+package com.java.zookeeper;
 
 public class Gorilla extends Mammal{
 	public void throwSomething() {

@@ -1,3 +1,5 @@
+package com.java.zookeeper;
+
 
 public class Mammal {
 	private int energyLevel = 100;
