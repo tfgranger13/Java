@@ -8,11 +8,11 @@
 		<version>2.5.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.timmichanga.hellohuman</groupId>
-	<artifactId>hellohuman</artifactId>
+	<groupId>com.timmichanga.routing</groupId>
+	<artifactId>routing</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>hellohuman</name>
-	<description>Hello Human assignment</description>
+	<name>routing</name>
+	<description>routing assignment</description>
 	<properties>
 		<java.version>11</java.version>
 		<vaadin.version>14.6.8</vaadin.version>

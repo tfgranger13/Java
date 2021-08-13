@@ -1,10 +1,10 @@
-package com.timmichanga.hellohuman;
+package com.timmichanga.routing;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HellohumanApplicationTests {
+class RoutingApplicationTests {
 
 	@Test
 	void contextLoads() {
