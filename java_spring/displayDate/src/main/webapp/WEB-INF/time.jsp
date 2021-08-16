@@ -10,6 +10,7 @@
 	<!-- For any Bootstrap that uses JS or jQuery-->
 	<script src="/webjars/jquery/jquery.min.js"></script>
 	<script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+	<!-- this one is for my own javascript -->
 	<script type="text/javascript" src="js/app.js"></script>
 </head>
 <body>
