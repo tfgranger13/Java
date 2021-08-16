@@ -28,6 +28,7 @@ public class DisplayController {
 	
 	@RequestMapping("/time")
 	public String getTime(Model model) {
+		// use string pattern here to format the time
 		String pattern = "hh:mm a";
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
 		String date = simpleDateFormat.format(new Date());
