@@ -79,8 +79,8 @@ class BST {
         }
         // if there is no node to the right, we are at the max
         else {
-            console.log("ending")
-            return console.log(runner.value);
+            console.log("ending at " + runner.value)
+            return runner.value;
         }
     }
 
@@ -96,8 +96,8 @@ class BST {
         }
         // if there is no node to the left, we are at the max
         else {
-            console.log("ending")
-            return console.log(runner.value);
+            console.log("ending at " + runner.value)
+            return runner.value;
         }   
     }
 }
