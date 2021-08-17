@@ -66,6 +66,40 @@ class BST {
             this.printTree(node.right);
         }
     }
+
+    findMax(runner = this.root){
+        // if there is no runner established, start at the root
+        console.log("looking at " + runner.value)
+        // if there is a runner, check if it has a right value
+        if (runner.right != null){
+            // if not, set the runner to the node to the right and call the function again
+            runner = runner.right;
+            console.log("moving to " + runner.value)
+            this.findMax(runner);
+        }
+        // if there is no node to the right, we are at the max
+        else {
+            console.log("ending")
+            return console.log(runner.value);
+        }
+    }
+
+    findMin(runner = this.root){
+        // if there is no runner established, start at the root
+        console.log("looking at " + runner.value)
+        // if there is a runner, check if it has a left value
+        if (runner.left != null){
+            // if not, set the runner to the node to the left and call the function again
+            runner = runner.left;
+            console.log("moving to " + runner.value)
+            this.findMin(runner);
+        }
+        // if there is no node to the left, we are at the max
+        else {
+            console.log("ending")
+            return console.log(runner.value);
+        }   
+    }
 }
 
 var test = new BST();
@@ -77,3 +111,5 @@ test.add(55);
 test.add(25);
 test.add(42);
 test.add(19);
+test.findMax();
+test.findMin();
