@@ -102,7 +102,7 @@ class BST {
     }
 
     size(runner = this.root) {
-        // If there is no node when the runner moves, add 0
+        // If there is no node when the runner moves (or starts), add 0
         if (!runner) {
             return 0;
         }
