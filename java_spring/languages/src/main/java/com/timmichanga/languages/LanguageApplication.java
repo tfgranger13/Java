@@ -1,13 +1,13 @@
-package com.timichanga.languages;
+package com.timmichanga.languages;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LanguagesApplication {
+public class LanguageApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LanguagesApplication.class, args);
+		SpringApplication.run(LanguageApplication.class, args);
 	}
 
 }
