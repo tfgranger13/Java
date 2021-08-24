@@ -1,10 +1,10 @@
-package com.timichanga.practice;
+package com.timichanga.login;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PracticeApplicationTests {
+class LoginApplicationTests {
 
 	@Test
 	void contextLoads() {
